@@ -1,0 +1,19 @@
+pt:
+  activerecord:
+    errors:
+      models:
+        event:
+          attributes:
+            base:
+               start_datetime_before_end_datetime: "A data e hora de início deve ser anterior à data e hora de término"
+               no_conflicts_events: 'Eventos conflitantes encontrados'
+        registration:
+          attributes:
+            base:
+              not_found: 'Inscricão não encontrada'
+              event_capacity_not_exceeded: 'Capacidade do evento ultrapassada'
+  event:
+    notices:
+      canceled: 'Cadastro cancelado com sucesso.'
+      cannot_cancel: 'Não é possível cancelar a inscrição após o início do evento.'
+    
